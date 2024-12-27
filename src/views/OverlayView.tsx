@@ -64,7 +64,7 @@ export const OverlayView: React.FC<Props> = (props) => {
     }, [fetchUserData, fetchUserMatches]);
 
     return (
-        <div className={"flex flex-row items-center bg-[#000000]/[.8] backdrop-blur-md rounded-full py-2 px-8 gap-x-10 w-fit"}>
+        <div className={"flex flex-row items-center bg-[#000000]/[.7] backdrop-blur-md rounded-full py-2 px-8 gap-x-10 w-fit"}>
             {
                 userProfile && userProfile.games && userProfile.games.cs2 ?
                     <>
@@ -76,7 +76,7 @@ export const OverlayView: React.FC<Props> = (props) => {
                             />
 
                             <CounterComponent
-                                label={"LOSE"}
+                                label={"LOSS"}
                                 color={"#C90000"}
                                 count={lostMatches}
                             />
