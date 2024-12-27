@@ -69,7 +69,7 @@ export const PanelView: React.FC = () => {
 
                 <div className={"flex flex-col gap-y-4 items-center"}>
                     <div className={"flex flex-row gap-x-4 items-center"}>
-                        <SocialComponent icon={GithubIcon} url={"https://github.com/Roxerek/FaceitCS2Overlay"}/>
+                        <SocialComponent icon={GithubIcon} url={"https://github.com/Roxerek"}/>
                         <SocialComponent icon={TwitchIcon} url={"https://www.twitch.tv/roxerekk"}/>
                         <SocialComponent icon={XIcon} url={"https://x.com/roxerek"}/>
                     </div>
