@@ -24,6 +24,7 @@ export const OverlayView: React.FC<Props> = (props) => {
 
         let won = 0;
         let lost = 0;
+        console.log(matches)
 
         for (let match of matches) {
             const matchStatistics: MatchStatisticsDto = match.stats;
@@ -31,7 +32,7 @@ export const OverlayView: React.FC<Props> = (props) => {
                 continue;
             }
 
-            if(matchStatistics.Result === '0'){
+            if(matchStatistics.Result === '1'){
                 won++;
             }else {
                 lost++;
